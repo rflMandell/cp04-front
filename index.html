@@ -6,6 +6,8 @@
     <title>Portfólio - Rafael Mandel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -20,31 +22,41 @@
     <main class="intro">
         <h1>Olá, me chamo</h1>
         <h2>Rafael Mandel</h2>
-        <p>alguma frase legal que vai ser posta em breve</p>
+        <p>e sou seu futuro Engenheiro de Software</p>
         <div class="icons">
             <a href="#" target="_blank"><i class="fas fa-file-alt"></i></a>
             <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/rafaelmandel-dev" target="_blank"><i class="fab fa-github"></i></a>
         </div>
         <div class="redirecionamentos mt-3">
-            <a href="#" class="btn btn-outline-primary">Projetos</a>
+            <a href="#" class="btn btn-outline-secondary">Projetos</a>
             <a href="#" class="btn btn-outline-secondary">Habilidades</a>
-            <a href="#" class="btn btn-outline-success">Educação</a>
+            <a href="#" class="btn btn-outline-secondary">Educação</a>
         </div>
     </main>
 
     <section class="about">
-        <div class="card mx-auto" style="max-width: 500px;">
+        <div class="card mx-auto" style="max-width: 1200px;">
             <div class="card-body">
-                <img src="#" class="img-fluid rounded-circle mb-3" alt="Foto about me" style="max-width: 150px;">
-                <p>Futuro texto sobre mim.</p>
+                <img src="images/testimage.jpg" class="img-fluid rounded-circle mb-3" alt="Foto about me" style="max-width: 150px;">
+                <p>Trabalhei no mercado editorial, desenvolvendo habilidades organizacionais, atenção aos detalhes e análise crítica. Durante minha transição para a área de tecnologia, aprofundei meus conhecimentos em desenvolvimento de software e implementação de sistemas.</p>
             </div>
+            <div class="skill-item">
+              <i class='bx bxl-python'></i>
+            </div>
+            <div class="skill-item">
+              <i class='bx bxs-data'></i>
+            </div>
+            <div class="skill-item">
+              <i class='bx bxs-bar-chart-alt-2'></i>
+            </div>
+          </div>
         </div>
     </section>
 
     <section class="box">
         <div class="card" style="width: 18rem;">
-            <img src="#" class="card-img-top" alt="Sistema para estoque">
+            <img src="images/python.jpg" class="card-img-top" alt="Sistema para estoque">
             <div class="card-body">
               <h5 class="card-title">Sistema de Estoque</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -52,7 +64,7 @@
             </div>
         </div>
         <div class="card" style="width: 18rem;">
-            <img src="#" class="card-img-top" alt="Projeto guardian">
+            <img src="images/guardian.png" class="card-img-top" alt="Projeto guardian">
             <div class="card-body">
               <h5 class="card-title">Projeto Guardian</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -61,6 +73,43 @@
         </div>
     </section>
 
+    <section id="formacao">
+      <div class="header">
+          <h1>Education</h1>
+      </div>
+      <div class="awards-container">
+          <div class="award">
+              <i class="ri-award-fill"></i>
+              <div class="award-info">
+                  <h5>Fiap - Bachelor's in Software Engineering</h5>
+                  <p>August 2024 - December 2028</p>
+              </div>
+          </div>
+          <div class="award">
+              <i class="ri-award-fill"></i>
+              <div class="award-info">
+                  <h5>Fiap - Python Course</h5>
+              </div>
+          </div>
+          <div class="award">
+              <i class="ri-award-fill"></i>
+              <div class="award-info">
+                  <h5>Fiap - Oracle Database Course</h5>
+              </div>
+          </div>
+          <div class="award">
+              <i class="ri-award-fill"></i>
+              <div class="award-info">
+                  <h5>International English Test - C1 Advanced English Level</h5>
+                  <p>January 2025</p>
+              </div>
+              <a href="https://internationalenglishtest.com/verify-certificate/734926C140-734926C149-734926990B/">
+                  <i class="ri-external-link-line"></i>
+              </a>
+          </div>
+      </div>
+  </section>
+    
     <footer class="footer-dark bg-dark">
         <p>&copy; 2025 Rafael Mandel - Todos os direitos reservados</p>
     </footer>
