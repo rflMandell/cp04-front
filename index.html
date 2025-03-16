@@ -8,109 +8,97 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
-    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="bg-dark text-light">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#">rflMandel</a>
             </div>
         </nav>
     </header>
 
-    <main class="intro">
+    <main class="container text-center d-flex flex-column justify-content-center align-items-center vh-100">
         <h1>Olá, me chamo</h1>
-        <h2>Rafael Mandel</h2>
+        <h2 class="fw-bold">Rafael Mandel</h2>
         <p>e sou seu futuro Engenheiro de Software</p>
-        <div class="icons">
-            <a href="#" target="_blank"><i class="fas fa-file-alt"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/rafaelmandel-dev" target="_blank"><i class="fab fa-github"></i></a>
+        <div class="d-flex justify-content-center gap-3 py-3">
+            <a href="archives/RAFAEL MANDEL CURRICULO - ptbr.pdf" class="text-light fs-3"><i class="fas fa-file-alt"></i></a>
+            <a href="https://www.linkedin.com/in/rafael-mandel-556a10310/" class="text-light fs-3"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/rflMandell" class="text-light fs-3"><i class="fab fa-github"></i></a>
         </div>
-        <div class="redirecionamentos mt-3">
-            <a href="#" class="btn btn-outline-secondary">Projetos</a>
-            <a href="#" class="btn btn-outline-secondary">Habilidades</a>
-            <a href="#" class="btn btn-outline-secondary">Educação</a>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="#sobre" class="btn btn-outline-light">Sobre mim</a>
+            <a href="#projetos" class="btn btn-outline-light">Projetos</a>
+            <a href="#educacao" class="btn btn-outline-light">Educação</a>
         </div>
     </main>
 
-    <section class="about">
-        <div class="card mx-auto" style="max-width: 1200px;">
+    <section class="container text-center py-5" id="sobre">
+        <div class="card mx-auto bg-secondary text-white" style="max-width: 1200px; background-color: #2c2c2c !important;">
             <div class="card-body">
-                <img src="images/testimage.jpg" class="img-fluid rounded-circle mb-3" alt="Foto about me" style="max-width: 150px;">
+                <img src="images/round.png" class="img-fluid rounded-circle mb-3" alt="Foto about me" style="max-width: 150px;">
                 <p>Trabalhei no mercado editorial, desenvolvendo habilidades organizacionais, atenção aos detalhes e análise crítica. Durante minha transição para a área de tecnologia, aprofundei meus conhecimentos em desenvolvimento de software e implementação de sistemas.</p>
-            </div>
-            <div class="skill-item">
-              <i class='bx bxl-python'></i>
-            </div>
-            <div class="skill-item">
-              <i class='bx bxs-data'></i>
-            </div>
-            <div class="skill-item">
-              <i class='bx bxs-bar-chart-alt-2'></i>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section class="box">
-        <div class="card" style="width: 18rem;">
-            <img src="images/python.jpg" class="card-img-top" alt="Sistema para estoque">
-            <div class="card-body">
-              <h5 class="card-title">Sistema de Estoque</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="images/guardian.png" class="card-img-top" alt="Projeto guardian">
-            <div class="card-body">
-              <h5 class="card-title">Projeto Guardian</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+                <div class="d-flex justify-content-center gap-3 fs-2">
+                    <i class='bx bxl-python'></i>
+                    <i class='bx bxs-data'></i>
+                    <i class='bx bxs-bar-chart-alt-2'></i>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="formacao">
-      <div class="header">
-          <h1>Education</h1>
-      </div>
-      <div class="awards-container">
-          <div class="award">
-              <i class="ri-award-fill"></i>
-              <div class="award-info">
-                  <h5>Fiap - Bachelor's in Software Engineering</h5>
-                  <p>August 2024 - December 2028</p>
-              </div>
-          </div>
-          <div class="award">
-              <i class="ri-award-fill"></i>
-              <div class="award-info">
-                  <h5>Fiap - Python Course</h5>
-              </div>
-          </div>
-          <div class="award">
-              <i class="ri-award-fill"></i>
-              <div class="award-info">
-                  <h5>Fiap - Oracle Database Course</h5>
-              </div>
-          </div>
-          <div class="award">
-              <i class="ri-award-fill"></i>
-              <div class="award-info">
-                  <h5>International English Test - C1 Advanced English Level</h5>
-                  <p>January 2025</p>
-              </div>
-              <a href="https://internationalenglishtest.com/verify-certificate/734926C140-734926C149-734926990B/">
-                  <i class="ri-external-link-line"></i>
-              </a>
-          </div>
-      </div>
-  </section>
-    
-    <footer class="footer-dark bg-dark">
+    <section class="container text-center py-5" id="projetos">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card text-white" style="background-color: #333;"><img src="images/python.jpg" class="card-img-top" alt="Sistema para estoque">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de Estoque</h5>
+                        <p class="card-text">Este projeto é um sistema simples de gerenciamento de produtos usando SQLite3 em Python. Ele permite que usuários autenticados como "gerente" ou "funcionário" realizem várias operações em um banco de dados de produtos.</p>
+                        <a href="https://github.com/rflMandell/market-system" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-white" style="background-color: #333;"><img src="images/guardian.png" class="card-img-top" alt="Projeto guardian">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Guardian</h5>
+                        <p class="card-text">Uma solução voltada para a sustentabilidade ambiental, eficiência energética e inclusão social. O objetivo principal é apresentar os impactos positivos do projeto por meio de uma interface web simples e interativa.</p>
+                        <a href="https://github.com/rflMandell/Project-Guardian" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container text-center py-5" id="educacao">
+        <h1>Educação</h1>
+        <div class="list-group">
+            <div class="list-group-item bg-dark text-light">
+                <i class="ri-award-fill"></i>
+                <h5>Fiap - Bachelor's in Software Engineering</h5>
+                <p>August 2024 - December 2028</p>
+            </div>
+            <div class="list-group-item bg-dark text-light">
+                <i class="ri-award-fill"></i>
+                <h5>Fiap - Python Course</h5>
+            </div>
+            <div class="list-group-item bg-dark text-light">
+                <i class="ri-award-fill"></i>
+                <h5>Fiap - Oracle Database Course</h5>
+            </div>
+            <div class="list-group-item bg-dark text-light">
+                <i class="ri-award-fill"></i>
+                <h5>International English Test - C1 Advanced English Level</h5>
+                <p>January 2025</p>
+                <a href="https://internationalenglishtest.com/verify-certificate/734926C140-734926C149-734926990B/" class="text-light">
+                    <i class="ri-external-link-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center py-3">
         <p>&copy; 2025 Rafael Mandel - Todos os direitos reservados</p>
     </footer>
 
